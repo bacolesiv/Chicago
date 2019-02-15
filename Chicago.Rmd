@@ -1,0 +1,43 @@
+---
+title: "Chicago"
+output: html_document
+---
+
+###Library
+```{r include=FALSE}
+library(tidyverse)
+library(visdat)
+library(naniar)
+```
+
+###Loading Data & Codebooks
+```{r include=FALSE}
+#Windows
+data1 <- readRDS("E:/Repository/Chicago/Data/cook-block-group-acs5-2011.rds")
+data2 <- readRDS("E:/Repository/Chicago/Data/cook-block-group-sf1-2000.rds")
+data3 <- readRDS("E:/Repository/Chicago/Data/cook-block-group-sf1-2010.rds")
+data4 <- readRDS("E:/Repository/Chicago/Data/cook-block-group-sf3-2000.rds")
+data5 <- readRDS("E:/Repository/Chicago/Data/cook-census-block-sf1-2000.rds")
+data6 <- readRDS("E:/Repository/Chicago/Data/cook-census-block-sf1-2010.rds")
+
+#Mac
+#load("~/desktop/Repository/Chicago/Data/cook-block-group-acs5-2011")
+#load("~/desktop/Repository/Chicago/Data/cook-block-group-sf1-2000")
+#load("~/desktop/Repository/Chicago/Data/cook-block-group-sf1-2010")
+#load("~/desktop/Repository/Chicago/Data/cook-block-group-sf3-2000")
+#load("~/desktop/Repository/Chicago/Data/cook-census-block-sf1-2000")
+#load("~/desktop/Repository/Chicago/Data/cook-census-block-sf1-2010")
+
+#codebook code is on mac or ipad
+```
+
+###Cleaning Data & Missingness
+```{r}
+
+```
+
+###Descriptives
+```{r}
+
+```
+
