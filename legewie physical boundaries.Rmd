@@ -5,7 +5,7 @@ output: html_document
 #Analysis 
 ```{r}
 # working directory
-PATH <- "/n/legewie_lab/Lab/neighborhood-boundaries/replication-material"
+PATH <- "~/desktop/Repository/Chicago/replication"
 ## load libraries
 library("MASS")
 library("tidyverse")
